@@ -1,0 +1,57 @@
+{
+  "name": "jason-koa-jwt",
+  "version": "4.0.0",
+  "description": "Koa JWT authentication middleware extension.",
+  "main": "./lib",
+  "types": "types/index.d.ts",
+  "scripts": {
+    "test": "nyc npm run test-only"
+  },
+  "nyc": {
+    "reporter": [
+      "lcov",
+      "text-summary"
+    ],
+    "report-dir": "./coverage"
+  },
+  "dependencies": {
+    "jsonwebtoken": "^8.5.1",
+    "koa-unless": "^1.0.7",
+    "p-any": "^2.1.0"
+  },
+  "devDependencies": {
+    "chai": "latest",
+    "koa": "^2.11.0",
+    "mocha": "^7.1.1",
+    "nyc": "^15.0.1",
+    "supertest": "^4.0.2"
+  },
+  "engines": {
+    "node": ">= 8"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JasonSoft-Net/jason-koa-jwt.git"
+  },
+  "keywords": [
+    "jwt",
+    "koa",
+    "auth",
+    "authentication",
+    "authz",
+    "authorization",
+    "http",
+    "jwt",
+    "json",
+    "middleware",
+    "token",
+    "oauth",
+    "permissions"
+  ],
+  "author": "jason",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JasonSoft-Net/jason-koa-jwt/issues"
+  },
+  "homepage": "https://github.com/JasonSoft-Net/jason-koa-jwt#readme"
+}
